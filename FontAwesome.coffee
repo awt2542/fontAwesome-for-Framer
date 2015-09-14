@@ -23,6 +23,7 @@ class module.exports extends Layer
 		options.backgroundColor ?= ''
 		options.color ?= 'black'
 		options.clip ?= false
+		options.fontSize ?= 40
 		faImported = document.getElementsByClassName('fa')
 		if faImported.length is 0
 			Utils.insertCSS fontAwesomeCSS
